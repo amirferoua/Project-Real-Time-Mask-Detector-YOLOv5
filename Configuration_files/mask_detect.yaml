@@ -1,0 +1,8 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /content/Mask_Detector/Configuration_files/train_data.txt
+val: /content/Mask_Detector/Configuration_files/val_data.txt
+test: /content/Mask_Detector/Configuration_files/test_data.txt
+# number of classes
+nc: 3
+# class names
+names: ['with_mask', 'without_mask', 'mask_weared_incorrect']
